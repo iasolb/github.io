@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ian Solberg</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ==================== NAVIGATION ==================== -->
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">Ian Solberg</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="interests.html" class="active">My Interests</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ==================== MAIN CONTENT ==================== -->
+  <main class="page">
+
+    <!-- PAGE HEADER -->
+    <div style="padding: 2.5rem 0 2rem; border-bottom: 1px solid var(--border); margin-bottom: 3rem;">
+      <p class="section-label">Explore</p>
+      <!--
+        REQUIREMENT: This heading must be SMALLER than the h1 on index.html.
+        We're using h2 here (1.75rem) vs. the h1 hero (2–3rem) on the home page.
+      -->
+      <h2>My Interests &amp; Passions</h2>
+      <p style="color: var(--muted); max-width: 560px;">
+        A deeper look at the things that keep me curious, motivated, and inspired
+        outside the classroom.
+      </p>
+    </div>
+
+    <!-- MAIN INTEREST SECTION -->
+    <section class="section">
+      <p class="section-label">Deep Dive</p>
+      <h2>[ Your Main Interest / Topic ]</h2>
+
+      <div class="media-block">
+        <!-- Replace with a relevant image -->
+        <img src="images/interest-main.jpg" alt="Describe the image" />
+        <div>
+          <!--
+            REQUIREMENT: At least 200 words of descriptive text on this page.
+            Replace the placeholder paragraphs below with your own content.
+          -->
+          <p>
+            Start by introducing this interest. When did you first discover it?
+            What drew you in? Give the reader enough context to understand why
+            this topic matters to you, even if they know nothing about it.
+            Passion is contagious — write with enthusiasm.
+          </p>
+          <p>
+            Go deeper in this paragraph. Explain what you've learned, practised,
+            or experienced related to this interest. Have you taken classes,
+            attended events, read books, watched documentaries, or joined
+            communities around it? Concrete examples make your writing vivid
+            and believable.
+          </p>
+        </div>
+      </div>
+
+      <p>
+        Continue the narrative here. Describe how this interest connects to other
+        parts of your life — your studies, your career goals, or your values.
+        Does it complement something you're studying? Has it taught you skills you
+        didn't expect, like patience, creativity, problem-solving, or teamwork?
+      </p>
+      <p>
+        Use this final paragraph to talk about where you'd like to take this
+        interest in the future. Are there goals you're working toward? A project
+        you want to complete, a skill you want to master, or a community you
+        want to contribute to? Sharing your aspirations invites readers to
+        cheer you on — and maybe even collaborate.
+        <!-- Add more text as needed to reach 200+ words total on this page. -->
+      </p>
+    </section>
+
+    <!-- LIST SECTION -->
+    <section class="section">
+      <p class="section-label">Top Picks</p>
+      <h2>My Favourite [ Books / Films / Resources / etc. ]</h2>
+      <p>
+        Here are some of the [ books / films / tools / places ] that have shaped
+        my interest in this topic. Replace this list with whatever fits your subject.
+      </p>
+
+      <!-- REQUIREMENT: A list (ordered or unordered) related to the topic -->
+      <ol class="styled">
+        <li><strong>Item One</strong> — A sentence explaining why you recommend or value this.</li>
+        <li><strong>Item Two</strong> — A sentence explaining why you recommend or value this.</li>
+        <li><strong>Item Three</strong> — A sentence explaining why you recommend or value this.</li>
+        <li><strong>Item Four</strong> — A sentence explaining why you recommend or value this.</li>
+        <li><strong>Item Five</strong> — A sentence explaining why you recommend or value this.</li>
+      </ol>
+    </section>
+
+    <!-- TAGS / SKILLS SECTION -->
+    <section class="section">
+      <p class="section-label">Related Skills &amp; Topics</p>
+      <h2>Things I've Picked Up Along the Way</h2>
+      <p>Replace these tags with skills, subtopics, or keywords related to your interest.</p>
+
+      <!-- Tag-pill list (unordered) -->
+      <ul class="tag-list">
+        <li>Skill / Topic 1</li>
+        <li>Skill / Topic 2</li>
+        <li>Skill / Topic 3</li>
+        <li>Skill / Topic 4</li>
+        <li>Skill / Topic 5</li>
+        <li>Skill / Topic 6</li>
+        <li>Skill / Topic 7</li>
+      </ul>
+    </section>
+
+    <!-- SECOND IMAGE -->
+    <section class="section">
+      <p class="section-label">Gallery</p>
+      <h2>A Glimpse Into [ Your Topic ]</h2>
+      <!-- REQUIREMENT: At least one image on this page (in addition to the one above) -->
+      <img
+        src="images/interest-secondary.jpg"
+        alt="Describe the second image"
+        style="width: 100%; aspect-ratio: 16/9; object-fit: cover;"
+      />
+      <p style="margin-top: 0.75rem; color: var(--muted); font-size: 0.9rem;">
+        Caption: describe what's shown in the image and why it's meaningful to you.
+      </p>
+    </section>
+
+    <!-- CONTACT (repeated for easy access) -->
+    <section class="contact-section" id="contact">
+      <h2>Let's Connect</h2>
+      <p>
+        Share a passion for data science or music production? Have questions or want to chat?
+        Reach out — I'm always happy to connect.
+      </p>
+      <div class="contact-links">
+        <a class="contact-btn" href="ianspraguesolbergu@gmail.com">✉ Email Me</a>
+        <a class="contact-btn" href="https://linkedin.com/in/iansolberg" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="contact-btn" href="https://github.com/iasolb" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer>
+    <p>&copy; 2025 Your Name. Built with HTML &amp; CSS.</p>
+  </footer>
+
+</body>
+</html>
